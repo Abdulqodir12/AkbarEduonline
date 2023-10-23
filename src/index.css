@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #e1d8ff;
+}
+
+@font-face {
+    font-family: "Urbanist", sans-serif;
+    src: url("/public/Urbanist");
+}
+
+@font-face {
+    font-family: "Sarabun", sans-serif;
+    src: url("/public/Sarabun");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("/public/Roboto");
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("/public/Inter");
+}
