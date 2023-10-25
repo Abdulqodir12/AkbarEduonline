@@ -1,0 +1,157 @@
+.section-imkoniyatlar {
+    background: #fff;
+    padding: 183px 0 183px 0;
+
+    background-repeat: no-repeat;
+    background-size: 65px 84px, 78px 80px, 366px 13px, 65px 67px, 59px 51px;
+    background-position: 400px 280px, 727px 192px, 1108px 196px,
+        bottom 156px right 141px, bottom 141px right 533px;
+    background-image: url("/public/yellow-yulduz.png"), url("/public/img-3.png"),
+        url("/public/chiziqilon.png"), url("/public/img4.png"),
+        url("/public/img6.png");
+
+    &__wrapper-text {
+        color: #207b3e;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 141.5%;
+        text-transform: uppercase;
+        padding: 0 0 0 121px;
+        margin: 0 0 8px;
+    }
+    &__wrapper-title {
+        padding: 0 0 0 121px;
+        margin: 0 0 42px 121px;
+        padding: 0;
+        color: #333333;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 141.5%;
+    }
+    &__wrapper-container {
+        display: flex;
+        overflow-y: hidden;
+       
+    }
+    &__wrapper-container-card {
+        width: 100%;
+        min-width: 300px;
+        height: 254px;
+        // padding: 20px 20.5px 33px;
+        padding-bottom: 183px;
+        border-radius: 16px;
+        background: #ffffff;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+        margin-right: 86px;
+    }
+
+    &__wrapper-container-card:nth-child(1) {
+        width: 100%;
+        max-width: 300px;
+        height: 254px;
+        margin-left: 121px;
+        // padding: 20px 20.5px 33px;
+        padding-bottom: 183px;
+        border-radius: 16px;
+        background: #ffffff;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+        margin-right: 86px;
+    }
+    &__wrapper-container-card2 {
+        width: 100%;
+        min-width: 300px;
+        height: 254px;
+        border-radius: 16px;
+        background: #207b3e;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+        margin: 0px;
+    }
+
+    &__wrapper-container-card4 {
+        width: 100%;
+        min-width: 300px;
+        height: 254px;
+        border-radius: 16px;
+        background: #207b3e;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+        margin: 0px;
+    }
+    &__wrapper-container-card-title {
+        color: #ff9c08;
+        font-family: Montserrat;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 20px;
+        margin: 0;
+    }
+    &__wrapper-container-card-title3 {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 20px;
+        margin: 0;
+    }
+    &__wrapper-container-card-title2 {
+        margin: 13px 0;
+        width: 100%;
+        max-width: 259px;
+        padding-left: 20px;
+        color: #207b3e;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    &__wrapper-container-card-text {
+        margin: 0px;
+        padding: 0;
+        width: 100%;
+        max-width: 250px;
+        padding-left: 20px;
+        color: var(--Black, #000);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    &__wrapper-container-card-text2 {
+        margin: 0px;
+        padding-top: 5px;
+        width: 100%;
+        max-width: 254px;
+        padding-left: 20px;
+        color: #fff;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &__wrapper-container-card-img {
+        margin: 160px 6px 0px -80px;
+        width: 100%;
+        max-width: 74px;
+        height: 31px;
+    }
+    &__wrapper-container-card-img2 {
+        margin: 40px 6px 0px 10px;
+        width: 100%;
+        max-width: 74px;
+        height: 31px;
+    }
+    &__wrapper-container-card-img3 {
+        margin: 155px 6px 0px -80px;
+        width: 100%;
+        max-width: 74px;
+        height: 31px;
+    }
+}

@@ -48,6 +48,10 @@ a {
 a:active {
     color: #e1d8ff;
 }
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: "https://fonts.googleapis.com/css2?family=Montserrat";
+}
 
 @font-face {
     font-family: "Urbanist", sans-serif;
@@ -56,7 +60,7 @@ a:active {
 
 @font-face {
     font-family: "Sarabun", sans-serif;
-    src: url("/public/Sarabun");
+    src: "https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=sw";
 }
 
 @font-face {
